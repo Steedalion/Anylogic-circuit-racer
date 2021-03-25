@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.3.3.201810181340" AlpVersion="8.3.1">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.3.3.201810181007" AlpVersion="8.3.1">
 <Model>
 	<Id>1595231845487</Id>
 	<Name><![CDATA[circuitRacer]]></Name>
@@ -17,6 +17,7 @@
 			<Id>1595231845492</Id>
 			<Name><![CDATA[Main]]></Name>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
+			<Import><![CDATA[import jdk.internal.module.SystemModuleFinder;]]></Import>
 			<Generic>false</Generic>
 			<GenericParameter>
 				<Id>1595231845491</Id>
@@ -138,6 +139,7 @@
 						<Condition><![CDATA[false]]></Condition>
 					</Properties>
 					<Action><![CDATA[int[] coords = car.connection.getCoords(car.connection.getLine());
+System.out.println(coords);
 car.setLocation(new Position(coords[0],coords[2],0));]]></Action>
 				</Event>
 			</Events>
@@ -609,6 +611,7 @@ public class LocationListener implements Serializable {
     	String rstring = "";
     	try {
     	rstring = inputBuff.readLine();
+    	System.out.println(rstring);
     	}
    	 catch(IOException e)
    	 {

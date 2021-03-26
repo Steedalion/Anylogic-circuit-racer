@@ -138,9 +138,12 @@
 						</RecurrenceCode>
 						<Condition><![CDATA[false]]></Condition>
 					</Properties>
-					<Action><![CDATA[int[] coords = car.connection.getCoords(car.connection.getLine());
+					<Action><![CDATA[int[] coords = car.connection.getCoords4(car.connection.getLine(), " ");
 System.out.println(coords);
-car.setLocation(new Position(coords[0],coords[2],0));]]></Action>
+car.setLocation(new Position(coords[0],coords[2],0));
+car.setRotation(coords[3]);
+
+]]></Action>
 				</Event>
 			</Events>
 			<AgentLinks>
@@ -245,7 +248,7 @@ car.setLocation(new Position(coords[0],coords[2],0));]]></Action>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<EmbeddedIcon>false</EmbeddedIcon>
 					<Z>0</Z>
-					<Rotation>0.0</Rotation>
+					<Rotation>60.0</Rotation>
 					<DrawingMode>AGENT_CURRENT_POSITION</DrawingMode>
 					<ScaleType>AUTOMATICALLY_CALCULATED</ScaleType>
 					<GISScaleForRealEmbeddedObjectPresentationSize>1000</GISScaleForRealEmbeddedObjectPresentationSize>
@@ -619,6 +622,22 @@ public class LocationListener implements Serializable {
    	 }
     	return rstring;
     }
+    
+    public int[] getCoords4(String coordinate, String seperator)
+    {
+    	String[] entries = coordinate.split(seperator);
+    	int[] coords = new int[4];
+    	
+    	for(int i =0; i<4; i++)
+    	{
+    	coords[i] = (int)(Float.parseFloat(entries[i]));
+
+    	}
+    	coords[3] = (int) atan2(coords[0], coords[2]);
+    	
+    	return coords;
+    }
+    
     
     public int[] getCoords(String coordinate)
     {

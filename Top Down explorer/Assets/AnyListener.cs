@@ -10,6 +10,8 @@ namespace DefaultNamespace
     {
         private TcpListener server;
         private TcpClient client;
+        private float[] tableEntries = new float[4];
+        private NetworkStream stream;
 
         private void Start()
         {
@@ -23,16 +25,28 @@ namespace DefaultNamespace
 
         private IEnumerator SendCords()
         {
+            stream = client.GetStream();
+
+            Transform t = transform;
+            Vector3 position;
             while (true)
             {
                 yield return new WaitForSeconds(0.5f);
-                NetworkStream stream = client.GetStream();
-                byte[] msg = System.Text.Encoding.ASCII.GetBytes(transform.position.ToString() + "\n");
-                stream.Write(msg, 0, msg.Length);
+                position = transform.position;
+                tableEntries[0] = position.x;
+                tableEntries[1] = position.y;
+                tableEntries[2] = position.z;
+                tableEntries[3] = t.rotation.eulerAngles.y;
+                foreach (float tableEntry in tableEntries)
+                {
+                    byte[] msg = System.Text.Encoding.ASCII.GetBytes(tableEntry.ToString() + " ");
+                    stream.Write(msg, 0, msg.Length);
+                }
+
+                byte[] endline = System.Text.Encoding.ASCII.GetBytes("\n");
+                stream.Write(endline, 0, endline.Length);
                 stream.Flush();
                 // client.Close();
-                Debug.Log("Sending "+transform.position);
-                
             }
         }
     }

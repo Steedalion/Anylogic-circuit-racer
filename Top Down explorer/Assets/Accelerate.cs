@@ -19,9 +19,10 @@ public class Accelerate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (Input.GetKeyDown(KeyCode.W))
         {
-            rb.AddForce(Vector3.forward * speed);
+            rb.AddForce(transform.forward * speed);
         }
 
         if (Input.GetKeyDown(KeyCode.A))
@@ -36,7 +37,7 @@ public class Accelerate : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.S))
         {
-            rb.AddForce(Vector3.back * speed);
+            rb.AddForce(-transform.forward * speed);
         }
     }
 }

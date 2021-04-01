@@ -10,13 +10,13 @@ Software:
 
 How to use: 
 
-1. Start Unity Play mode. The game will be paused (waiting for anylogic model).
+1. Start Unity Play mode, Scene = Ball. The game will be paused (waiting for anylogic model).
 
 <img src='Unity-paused.PNG'>
 
 2. Start anylogic model.
 
-<img src='circuit_racer-star.PNG'>
+<img src='circuit_racer-start.PNG'>
 
 3. Anylogic will wait 3 seconds before updating the position.
 

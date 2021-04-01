@@ -26,7 +26,7 @@ How to use:
 
 5. Move Unity model (WASD) and see it update on Anylogic.
 
-[Video] (demo1.mp4)
+[Video](demo1.mp4)
 
 
 

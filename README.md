@@ -2,9 +2,11 @@
 
 Communication between anylogic and unity. The driver (unity) communicates his position and anylogic updates it.
 
-Versions:
-Unity 2019.xxx
-Anylogic 8.3.3
+Software:
+
+- Unity 2019.xxx
+
+- Anylogic 8.3.3
 
 How to use: 
 

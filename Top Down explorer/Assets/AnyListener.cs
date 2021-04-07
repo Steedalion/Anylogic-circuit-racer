@@ -10,11 +10,13 @@ namespace DefaultNamespace
     {
         private TcpListener server;
         private TcpClient client;
-        private float[] tableEntries = new float[4];
+        private float[] tableEntries = new float[5];
         private NetworkStream stream;
+        private ObstacleFinder finder;
 
         private void Start()
         {
+            finder = GetComponent<ObstacleFinder>();
             IPAddress address = IPAddress.Any;
             server = new TcpListener(address, 9999);
             server.Start();
@@ -37,6 +39,7 @@ namespace DefaultNamespace
                 tableEntries[1] = position.y;
                 tableEntries[2] = position.z;
                 tableEntries[3] = t.rotation.eulerAngles.y;
+                tableEntries[4] = finder.GetNumberOfObstacles();
                 foreach (float tableEntry in tableEntries)
                 {
                     byte[] msg = System.Text.Encoding.ASCII.GetBytes(tableEntry.ToString() + " ");
@@ -46,7 +49,6 @@ namespace DefaultNamespace
                 byte[] endline = System.Text.Encoding.ASCII.GetBytes("\n");
                 stream.Write(endline, 0, endline.Length);
                 stream.Flush();
-                // client.Close();
             }
         }
     }

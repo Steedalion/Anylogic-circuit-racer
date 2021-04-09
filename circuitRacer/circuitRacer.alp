@@ -138,7 +138,7 @@
 						</RecurrenceCode>
 						<Condition><![CDATA[false]]></Condition>
 					</Properties>
-					<Action><![CDATA[float[] coords = car.connection.parseMessage(4, " ");
+					<Action><![CDATA[float[] coords = car.connection.parseMessage(13, " ");
 
 for(int i = 0; i < coords.length; i++)
 {

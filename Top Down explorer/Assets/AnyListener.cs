@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace DefaultNamespace
 {
+    [RequireComponent(typeof(ObstacleFinder))]
     public class AnyListener : MonoBehaviour
     {
         private TcpListener server;

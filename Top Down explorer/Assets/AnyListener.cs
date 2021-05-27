@@ -19,9 +19,10 @@ namespace DefaultNamespace
         {
             finder = GetComponent<ObstacleFinder>();
             IPAddress address = IPAddress.Any;
-            server = new TcpListener(address, 9999);
+            int port  = 9999;
+            server = new TcpListener(address, port);
             server.Start();
-
+            Debug.Log("Waiting for client to connect @"+address+" : "+port);
             client = server.AcceptTcpClient();
             StartCoroutine(SendCords());
         }

@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace UnityMover
 {
+    [Serializable]
     public class Receiver
     {
         private Moveable moveable;
@@ -23,13 +24,14 @@ namespace UnityMover
             if (split[0] == "Move")
             {
                 string coordinates = split[1];
-            
+
                 Vector3 destination = ToVector3(coordinates);
                 moveable.SetDestination(destination);
                 return moveable;
             }
             else
             {
+
                 throw new RecieverMessageNotUnderstood();
             }
         }
@@ -40,7 +42,6 @@ namespace UnityMover
 
             Vector3 output = new Vector3(float.Parse(coords[0]), float.Parse(coords[1]), float.Parse(coords[2]));
             return output;
-
         }
 
         public class RecieverMessageNotUnderstood : Exception
@@ -53,6 +54,4 @@ namespace UnityMover
         void SetDestination(Vector3 destination);
         void MoveTo();
     }
-
-    
 }

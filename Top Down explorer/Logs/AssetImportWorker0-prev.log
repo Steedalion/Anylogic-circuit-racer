@@ -1,0 +1,567 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 18363.1556; Version 1909; 64bit' Language: 'en' Physical Memory: 32663 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/steed/Documents/Anylogic/Anylogic-circuit-racer/Top Down explorer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63369
+Successfully changed project path to: C:/Users/steed/Documents/Anylogic/Anylogic-circuit-racer/Top Down explorer
+C:/Users/steed/Documents/Anylogic/Anylogic-circuit-racer/Top Down explorer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/steed/Documents/Anylogic/Anylogic-circuit-racer/Top Down explorer/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003660 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005239 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.3 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3194.
+Total: 3.391800 ms (FindLiveObjects: 0.276400 ms CreateObjectMapping: 0.094700 ms MarkObjects: 2.915100 ms  DeleteObjects: 0.104300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/AssetStoreTools/SteamVR/SteamVR.asmdef
+  artifactKey: Guid(1fbf338ef6b952a448262a7ff7df5fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/SteamVR/SteamVR.asmdef using Guid(1fbf338ef6b952a448262a7ff7df5fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fe19c4b6582d7c8c5237ffb5dc8ac1') in 0.042823 seconds
+  Import took 0.047396 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005179 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.405 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.3 MB.
+System memory in use after: 113.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3198.
+Total: 3.778700 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.114900 ms MarkObjects: 3.342400 ms  DeleteObjects: 0.046300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.306039 seconds.
+  path: Assets/Fullscreen/FullscreenEditor.asmdef
+  artifactKey: Guid(838d3286f0973344ab6e99d3951012f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fullscreen/FullscreenEditor.asmdef using Guid(838d3286f0973344ab6e99d3951012f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8b6dd0cb92abba2b709f4153eab45b') in 0.010715 seconds
+  Import took 0.015819 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004453 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.472 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.3 MB.
+System memory in use after: 113.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3202.
+Total: 4.475200 ms (FindLiveObjects: 0.314000 ms CreateObjectMapping: 0.124500 ms MarkObjects: 4.002800 ms  DeleteObjects: 0.031400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.990534 seconds.
+  path: Assets/AssetStoreTools/Plugins/uContect.asmdef
+  artifactKey: Guid(b25a75589117cbf4fa7184f768a3d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/uContect.asmdef using Guid(b25a75589117cbf4fa7184f768a3d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6f0ec1499bfa1fa78213dd9786164c') in 0.012324 seconds
+  Import took 0.017574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.742350 seconds.
+  path: Assets/AssetStoreTools/Plugins/uContect.asmdef
+  artifactKey: Guid(b25a75589117cbf4fa7184f768a3d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/uContect.asmdef using Guid(b25a75589117cbf4fa7184f768a3d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b33b793eba929972f5cba021ad1ea29') in 0.004693 seconds
+  Import took 0.010651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.925036 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext Pro/Scripts/Editor/uContext-Pro-Editor.asmdef
+  artifactKey: Guid(5a7ed30e5d547a147b298f5d1e31886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext Pro/Scripts/Editor/uContext-Pro-Editor.asmdef using Guid(5a7ed30e5d547a147b298f5d1e31886d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cd7d891cdc7dfeac697b83644ab7d8') in 0.008705 seconds
+  Import took 0.013534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.234573 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Documentation/Documentation.asset
+  artifactKey: Guid(9a72830a1c3c93d4d81c0bc1cd5a93b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Documentation/Documentation.asset using Guid(9a72830a1c3c93d4d81c0bc1cd5a93b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd293950b296876dff22d35b6c306761a') in 0.027583 seconds
+  Import took 0.032402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.638452 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Add-Component.png
+  artifactKey: Guid(e57ca55f72c16ad4783a13bfdbd780b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Add-Component.png using Guid(e57ca55f72c16ad4783a13bfdbd780b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235af4cb59284377dc163c9b39104841') in 0.183674 seconds
+  Import took 0.188868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Align-Dark.png
+  artifactKey: Guid(09a6b4ba22bd179409607e16280b3efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Align-Dark.png using Guid(09a6b4ba22bd179409607e16280b3efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298d04042555a6ae0c6e60c69ed852ea') in 0.017427 seconds
+  Import took 0.023106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Align.png
+  artifactKey: Guid(f94781f827377de4cbd7b09d743766a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Align.png using Guid(f94781f827377de4cbd7b09d743766a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6848666fdbf24db9da3383c0f47c86b') in 0.017311 seconds
+  Import took 0.023371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Bounds.png
+  artifactKey: Guid(bd48eb9cc5e91c24490958f3f4305f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Bounds.png using Guid(bd48eb9cc5e91c24490958f3f4305f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d6ae9897a4b58217714846ae935db2') in 0.018245 seconds
+  Import took 0.023898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Image.png
+  artifactKey: Guid(755317d5d4e40504480aaab99bcd45b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Image.png using Guid(755317d5d4e40504480aaab99bcd45b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df92ffba9a7d22ea5d7f894496e1b78') in 0.015575 seconds
+  Import took 0.020638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Close-Black.png
+  artifactKey: Guid(a625442f43e9cd54782ff7b4510d0a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Close-Black.png using Guid(a625442f43e9cd54782ff7b4510d0a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd7bc6f1435bb6c6024537541ec9d7d') in 0.016227 seconds
+  Import took 0.020951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Lock.png
+  artifactKey: Guid(5c701d425dd340043851b2e7048deb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Lock.png using Guid(5c701d425dd340043851b2e7048deb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e8149dcd9a5d69046d890b99509f57') in 0.025051 seconds
+  Import took 0.029821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Scripts/uContext.asmdef
+  artifactKey: Guid(87843e9ac67c10143b744f1654861669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Scripts/uContext.asmdef using Guid(87843e9ac67c10143b744f1654861669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57914059f5842c990f0af3b236d73030') in 0.009484 seconds
+  Import took 0.014087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Hierarchy2.png
+  artifactKey: Guid(b8e46006499dca74ca047875633db3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Hierarchy2.png using Guid(b8e46006499dca74ca047875633db3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15588e436613944c796f1efd57b4ff29') in 0.020895 seconds
+  Import took 0.025569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Hierarchy.png
+  artifactKey: Guid(1de13c25388683044ab16e10290c2b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Hierarchy.png using Guid(1de13c25388683044ab16e10290c2b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e606a32f6e99c490a7066267c8f380c0') in 0.017473 seconds
+  Import took 0.022275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Grid-Pro.png
+  artifactKey: Guid(2abc881883b5d1544a5227ebde955e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Grid-Pro.png using Guid(2abc881883b5d1544a5227ebde955e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c584eb25a2b3c7e6131d35fd3cf7314') in 0.022457 seconds
+  Import took 0.029145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/DebugPro.png
+  artifactKey: Guid(d4007fc70eefe06408123f4ea8b8bf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/DebugPro.png using Guid(d4007fc70eefe06408123f4ea8b8bf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092dc5f9320fa5470477820746cb1b69') in 0.018519 seconds
+  Import took 0.023913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Arrow-Up.png
+  artifactKey: Guid(87f9d5942fddbf44db375615174a3222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Arrow-Up.png using Guid(87f9d5942fddbf44db375615174a3222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bf4ff07eebf2a7ef12b07b7130e34e') in 0.019589 seconds
+  Import took 0.025793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Collection.png
+  artifactKey: Guid(cfa6c3143077cc24ab5f734f9e2233eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Collection.png using Guid(cfa6c3143077cc24ab5f734f9e2233eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c39d922559543ec6d0feb35f213cd1c') in 0.018262 seconds
+  Import took 0.023184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Focus.png
+  artifactKey: Guid(74e273beae5d5714f803b1a98bc10bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Focus.png using Guid(74e273beae5d5714f803b1a98bc10bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b69c884a306110c73dc8039c238f99') in 0.015558 seconds
+  Import took 0.021362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/DebugOn.png
+  artifactKey: Guid(276f6d46c9f63064b87445068c6dcf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/DebugOn.png using Guid(276f6d46c9f63064b87445068c6dcf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1940cd7934caeb4cfcf2aacd13b6c8') in 0.017995 seconds
+  Import took 0.024087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/FocusToolbarPro.png
+  artifactKey: Guid(a5225707d591ce24594d0667fa7bef73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/FocusToolbarPro.png using Guid(a5225707d591ce24594d0667fa7bef73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de8cd2ea05f9c99679ca57a0af99c4c') in 0.014621 seconds
+  Import took 0.019270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Arrow-Left.png
+  artifactKey: Guid(ad288d60c46aa9a439865a31be55c3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Arrow-Left.png using Guid(ad288d60c46aa9a439865a31be55c3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad23ef5c003d5f7c8497e9d3f370d3f') in 0.013798 seconds
+  Import took 0.017800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Anchor.png
+  artifactKey: Guid(9b1cca4fa50dbd14e8fda7dac94b7e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Anchor.png using Guid(9b1cca4fa50dbd14e8fda7dac94b7e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a855391fc9c08da5e775d38e6754cad0') in 0.012977 seconds
+  Import took 0.017519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Blue-Bullet.png
+  artifactKey: Guid(468569c253d145d489cd2d7e3a967399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Blue-Bullet.png using Guid(468569c253d145d489cd2d7e3a967399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79fa0cd8f3fa3c8d61ba35843d5c084') in 0.015843 seconds
+  Import took 0.020957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Gray-Bullet.png
+  artifactKey: Guid(75e14d6ad64fcde418ccd228cc1ccfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Gray-Bullet.png using Guid(75e14d6ad64fcde418ccd228cc1ccfa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b01c199ec4f977e17e21ebc7c46ea11') in 0.014789 seconds
+  Import took 0.020391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Bounds-Dark.png
+  artifactKey: Guid(8b57788c42c60924d91ea6691cf8e349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Bounds-Dark.png using Guid(8b57788c42c60924d91ea6691cf8e349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d32f4a8f01e67a97bb364538252547') in 0.017293 seconds
+  Import took 0.022599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/DuplicateTool.png
+  artifactKey: Guid(999f665eb03670049b79586ad062af09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/DuplicateTool.png using Guid(999f665eb03670049b79586ad062af09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c215b66431e612d84b390b819a6736e') in 0.016014 seconds
+  Import took 0.021269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/FocusToolbar.png
+  artifactKey: Guid(865a741273dccdc49a21876bd0a5bce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/FocusToolbar.png using Guid(865a741273dccdc49a21876bd0a5bce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c79893a054e4c63ea779923bce90f73') in 0.016164 seconds
+  Import took 0.022416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/History.png
+  artifactKey: Guid(75105287f5e99fc4792df9435ae477a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/History.png using Guid(75105287f5e99fc4792df9435ae477a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1c554eba27f5ca9a45f5166864d78a') in 0.014728 seconds
+  Import took 0.021126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Eye.png
+  artifactKey: Guid(41101195f6c90e042a70cba068c188f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Eye.png using Guid(41101195f6c90e042a70cba068c188f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0aadfbe41db2173bd72bf1a68a9288') in 0.015900 seconds
+  Import took 0.020201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/DuplicateToolPro.png
+  artifactKey: Guid(1f3ca2c068812c547bd24f9c580cbceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/DuplicateToolPro.png using Guid(1f3ca2c068812c547bd24f9c580cbceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d5fe44da96624485be5b2dbb5f8a02') in 0.015854 seconds
+  Import took 0.021534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Create-Object.png
+  artifactKey: Guid(89785333477b18c4080b9cda77f834aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Create-Object.png using Guid(89785333477b18c4080b9cda77f834aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630926b693fd385c854b9a7257cb6807') in 0.014793 seconds
+  Import took 0.020024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Inspector.png
+  artifactKey: Guid(be0d0bf83cd4f0e43b30b9a608ab5f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Inspector.png using Guid(be0d0bf83cd4f0e43b30b9a608ab5f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15e0884c535108543596cb75bc49556') in 0.016613 seconds
+  Import took 0.022319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Group.png
+  artifactKey: Guid(3fc123324a71c4c47b740d6c632090b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Group.png using Guid(3fc123324a71c4c47b740d6c632090b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd873d409ae75da7d562df1da87a2da39') in 0.016972 seconds
+  Import took 0.022845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Close-Windows.png
+  artifactKey: Guid(3b1e32ccf8389de46b17e0e5944eea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Close-Windows.png using Guid(3b1e32ccf8389de46b17e0e5944eea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ab2f5f09b8ffea99bea6cbe8dfe734') in 0.018002 seconds
+  Import took 0.023197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/HelpIcon.png
+  artifactKey: Guid(1a871bb9c4f60874f8921ce37bb85385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/HelpIcon.png using Guid(1a871bb9c4f60874f8921ce37bb85385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de19905d8160ae2c7e5632d801cbe701') in 0.017609 seconds
+  Import took 0.022690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Arrow-Right.png
+  artifactKey: Guid(29cd5897689e9ca47bb1e9937519cb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Arrow-Right.png using Guid(29cd5897689e9ca47bb1e9937519cb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ffdaa6f939477b925fc01c01770e7b') in 0.015813 seconds
+  Import took 0.021034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Grid.png
+  artifactKey: Guid(cd7dd15d679cc184a8681acaf61f3a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Grid.png using Guid(cd7dd15d679cc184a8681acaf61f3a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80783cf7667eacffa093bbf88e4f55c6') in 0.015957 seconds
+  Import took 0.021077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Duplicate.png
+  artifactKey: Guid(ab96d2fbadb8b5c4babe7a4c14710cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Duplicate.png using Guid(ab96d2fbadb8b5c4babe7a4c14710cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab8283bc8b756aec6dddd54d66d0efb') in 0.015843 seconds
+  Import took 0.020608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Arrow-Down.png
+  artifactKey: Guid(4adb07f550433934e83e26b4f6410744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Arrow-Down.png using Guid(4adb07f550433934e83e26b4f6410744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a2844d7ea40b4fbeda3afdf3e94db6') in 0.015100 seconds
+  Import took 0.021008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Close-White.png
+  artifactKey: Guid(ed0a5661307177c4da36a733b86afdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Close-White.png using Guid(ed0a5661307177c4da36a733b86afdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514a90e8208ba8055944897729adbaf6') in 0.013677 seconds
+  Import took 0.018676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Debug.png
+  artifactKey: Guid(5270c4eb9757900468ab5ac177dae5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Icons/Debug.png using Guid(5270c4eb9757900468ab5ac177dae5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8f47140d66a14dc9f6a76665f6476f') in 0.012932 seconds
+  Import took 0.017042 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.512 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.4 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3213.
+Total: 3.278300 ms (FindLiveObjects: 0.315900 ms CreateObjectMapping: 0.140500 ms MarkObjects: 2.797900 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.003249 seconds.
+  path: Assets/Material/Ball.mat
+  artifactKey: Guid(562170d6a58da854cac66f18bec1fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Ball.mat using Guid(562170d6a58da854cac66f18bec1fd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81df25b179c97d1917f52cf32fd730c1') in 0.301751 seconds
+  Import took 0.306996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Material/Obstacle.mat
+  artifactKey: Guid(f3249b095b5bb6b44974fcdcb92496e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Obstacle.mat using Guid(f3249b095b5bb6b44974fcdcb92496e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72aad2277307a04fec99fde75abb28c') in 0.025282 seconds
+  Import took 0.029580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Material/Floor.mat
+  artifactKey: Guid(2cd8aaefe09e4db45a48f42d2deaec6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Floor.mat using Guid(2cd8aaefe09e4db45a48f42d2deaec6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb20bcca79d2e06b43c12ce52155fe81') in 0.131349 seconds
+  Import took 0.135355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Material/Cube.prefab
+  artifactKey: Guid(3553ac5cad057904c8f99870203f8748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Cube.prefab using Guid(3553ac5cad057904c8f99870203f8748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200c1abe03b420fc7aa65d17a47c41a1') in 0.030967 seconds
+  Import took 0.034753 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.398 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.7 MB.
+System memory in use after: 114.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3257.
+Total: 7.324400 ms (FindLiveObjects: 0.751500 ms CreateObjectMapping: 0.544400 ms MarkObjects: 5.968400 ms  DeleteObjects: 0.058600 ms)
+

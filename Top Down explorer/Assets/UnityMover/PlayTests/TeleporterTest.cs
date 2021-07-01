@@ -10,13 +10,13 @@ namespace Tests
     {
         private GameObject gameObject;
         private Teleporter teleporter;
-        private Receiver receiver;
+        private MessageIntepretor messageIntepretor;
         [UnitySetUp]
         public IEnumerator CreateEnvironment()
         {
             gameObject = GameObject.Instantiate(new GameObject());
             teleporter = gameObject.AddComponent<Teleporter>();
-            receiver = new Receiver(teleporter);
+            messageIntepretor = new MessageIntepretor(teleporter);
             
             yield return null;
         }
@@ -42,8 +42,8 @@ namespace Tests
             
             string moveToDestination = "Move:(1,2,3)";
             Vector3 destination = new Vector3(1, 2, 3);
-            Moveable moveable = receiver.Receive(moveToDestination);
-            Assert.AreNotEqual(gameObject.transform.position, destination);
+            Moveable moveable = messageIntepretor.Receive(moveToDestination);
+            Assert.AreEqual(gameObject.transform.position, destination);
             yield return null;
             moveable.MoveTo();
             yield return null;

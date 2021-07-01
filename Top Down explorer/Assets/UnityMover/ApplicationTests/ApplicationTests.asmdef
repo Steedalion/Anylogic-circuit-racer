@@ -1,8 +1,11 @@
 {
-    "name": "PlayTests",
+    "name": "ApplicationTests",
+    "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
+        "CommunicatorTests",
+        "MoverTests",
         "UnityMover"
     ],
     "includePlatforms": [],

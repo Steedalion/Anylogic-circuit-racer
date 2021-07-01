@@ -10,7 +10,7 @@ public class SenderMessage : MonoBehaviour
     [ContextMenu(nameof(Send))]
     public void Send()
     {
-        Moveable command = recieveAndMove.receiver.Receive(message);
+        Moveable command = recieveAndMove.MessageIntepretor.Receive(message);
         command.MoveTo();
     }
 }

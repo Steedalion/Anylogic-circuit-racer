@@ -7,7 +7,7 @@ namespace Tests
 {
     public class RecieverTest
     {
-        private Receiver receiver;
+        private MessageIntepretor messageIntepretor;
         private string moveMessage = "Move:(1, 2, 3)";
         private string moveWithSpace = "Move : (1, 2, 3)";
         private Vector3 destination = new Vector3(1, 2, 3);
@@ -17,37 +17,37 @@ namespace Tests
         public void CreateNewReciever()
         {
             teleportMover = new TeleportMover();
-            receiver = new Receiver(teleportMover);
+            messageIntepretor = new MessageIntepretor(teleportMover);
         }
 
         [TearDown]
         public void RemoveReciever()
         {
-            receiver = null;
+            messageIntepretor = null;
         }
 
         [Test]
         public void RecieverNotNull()
         {
-            Assert.IsNotNull(receiver);
+            Assert.IsNotNull(messageIntepretor);
         }
 
         [Test]
         public void RecieverMessageNotUnderstood()
         {
-            Assert.Catch<Receiver.RecieverMessageNotUnderstood>(() => receiver.Receive("bogus message"));
+            Assert.Catch<MessageIntepretor.RecieverMessageNotUnderstood>(() => messageIntepretor.Receive("bogus message"));
         }
 
         [Test]
         public void MoveShouldNotThrowException()
         {
-            receiver.Receive(moveMessage);
+            messageIntepretor.Receive(moveMessage);
         }
 
         [Test]
         public void MoveWithSpaceShouldNotThrowException()
         {
-            receiver.Receive(moveWithSpace);
+            messageIntepretor.Receive(moveWithSpace);
         }
 
 
@@ -59,7 +59,7 @@ namespace Tests
         [Test]
         public void ShouldMoveToPosition()
         {
-            Moveable moveable = receiver.Receive(moveMessage);
+            Moveable moveable = messageIntepretor.Receive(moveMessage);
             moveable.MoveTo();
             Assert.AreNotEqual(teleportMover.location, Vector3.zero,"Should have moved");
             Assert.AreEqual(teleportMover.location, destination, "Should be at destination"); 

@@ -6,9 +6,12 @@
 package tcpclient;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
@@ -30,8 +33,11 @@ public class TcpClient {
  
             InputStream input = clientSocket.getInputStream();
             InputStreamReader reader = new InputStreamReader(input);
-            
             BufferedReader inputBuff = new BufferedReader(reader);
+            
+            OutputStream output = clientSocket.getOutputStream();
+            OutputStreamWriter writer = new OutputStreamWriter(output);
+            BufferedWriter writeBufferedWriter = new BufferedWriter(writer);
  
 //            int character;
 //            StringBuilder data = new StringBuilder();

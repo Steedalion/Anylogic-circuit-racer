@@ -4,11 +4,11 @@ using UnityEngine;
 namespace UnityMover
 {
     [Serializable]
-    public class Receiver
+    public class MessageIntepretor
     {
         private Moveable moveable;
 
-        public Receiver(Moveable moveable)
+        public MessageIntepretor(Moveable moveable)
         {
             this.moveable = moveable;
         }
@@ -27,12 +27,13 @@ namespace UnityMover
 
                 Vector3 destination = ToVector3(coordinates);
                 moveable.SetDestination(destination);
+                moveable.MoveTo();
+                Debug.Log("Moving too: " + destination + " with" + moveable);
                 return moveable;
             }
             else
             {
-
-                throw new RecieverMessageNotUnderstood();
+                throw new RecieverMessageNotUnderstood(instruction);
             }
         }
 
@@ -44,8 +45,12 @@ namespace UnityMover
             return output;
         }
 
-        public class RecieverMessageNotUnderstood : Exception
+        public class RecieverMessageNotUnderstood : Exception 
         {
+            public RecieverMessageNotUnderstood(string message) : base(message)
+            {
+                Debug.Log("Message could not be parsed:"+message);
+            }
         }
     }
 

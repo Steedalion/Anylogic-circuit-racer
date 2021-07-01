@@ -5,7 +5,7 @@ using UnityMover;
 
 public class RecieveAndMove : MonoBehaviour
 {
-    public Receiver receiver { get; private set; }
+    public MessageIntepretor MessageIntepretor { get; private set; }
 
     [SerializeField]
     public Moveable moveable;
@@ -13,6 +13,6 @@ public class RecieveAndMove : MonoBehaviour
     void Start()
     {
         moveable = FindObjectOfType<Navigator>();
-        receiver = new Receiver(moveable);
+        MessageIntepretor = new MessageIntepretor(moveable);
     }
 }

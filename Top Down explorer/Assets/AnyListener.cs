@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Net;
 using System.Net.Sockets;
 using UnityEngine;
@@ -9,7 +8,7 @@ namespace DefaultNamespace
     [RequireComponent(typeof(ObstacleFinder))]
     public class AnyListener : MonoBehaviour
     {
-        private TcpListener server;
+        private TcpListener listener;
         private TcpClient client;
         private float[] tableEntries = new float[14];
         private NetworkStream stream;
@@ -20,10 +19,10 @@ namespace DefaultNamespace
             finder = GetComponent<ObstacleFinder>();
             IPAddress address = IPAddress.Any;
             int port  = 9999;
-            server = new TcpListener(address, port);
-            server.Start();
+            listener = new TcpListener(address, port);
+            listener.Start();
             Debug.Log("Waiting for client to connect @"+address+" : "+port);
-            client = server.AcceptTcpClient();
+            client = listener.AcceptTcpClient();
             StartCoroutine(SendCords());
         }
 

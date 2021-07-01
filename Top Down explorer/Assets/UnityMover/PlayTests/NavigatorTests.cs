@@ -11,14 +11,14 @@ namespace Tests
     {
         private GameObject gameObject;
         private Navigator navigator;
-        private Receiver receiver;
+        private MessageIntepretor messageIntepretor;
 
         [UnitySetUp]
         public IEnumerator SetupResources()
         {
             gameObject = GameObject.Instantiate(new GameObject());
             navigator = gameObject.AddComponent<Navigator>();
-            receiver = new Receiver(navigator);
+            messageIntepretor = new MessageIntepretor(navigator);
             yield return null;
         }
 
@@ -28,7 +28,7 @@ namespace Tests
             GameObject.Destroy(gameObject);
             yield return null;
         }
-        
+
 
         [UnityTest]
         public IEnumerator AutomaticallyAddsNavmeshAgent()
@@ -37,16 +37,16 @@ namespace Tests
             Assert.IsNotNull(agent);
             yield return null;
         }
-        
-        
-        [UnityTest]
+
+
+        // [UnityTest]
         public IEnumerator MoveSetsNavmeshDestination()
         {
             NavMeshAgent agent = gameObject.GetComponent<NavMeshAgent>();
-
+            yield return null;
             string moveCommand = "Move: (1,2,3)";
-            Moveable moveable = receiver.Receive(moveCommand);
-            Vector3 destination = new Vector3(1,2,3);
+            Moveable moveable = messageIntepretor.Receive(moveCommand);
+            Vector3 destination = new Vector3(1, 2, 3);
             Assert.AreNotEqual(agent.destination, destination);
             yield return null;
             moveable.MoveTo();

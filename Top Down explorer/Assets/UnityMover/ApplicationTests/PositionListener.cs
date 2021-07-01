@@ -12,10 +12,11 @@ public class PositionListener : MonoBehaviour
     public float refreshRate = 1;
     private WaitForSeconds refreshWait;
     private MessageHandler myMessageHandler;
+    private GameObject marker;
 
     private void Awake()
     {
-        interpretor = new MessageIntepretor(GetComponent<Teleporter>());
+        interpretor = new MessageIntepretor(GetComponent<Moveable>());
     }
 
     private void Start()
@@ -38,11 +39,7 @@ public class PositionListener : MonoBehaviour
         while (true)
         {
             yield return refreshWait;
-            if (!myMessageHandler.MoreData())
-            {
-                Debug.Log("Message Not ready");
-                continue;
-            }
+            
             interpretor.Receive(myMessageHandler.ReadAndParse());
         Debug.Log("listener Moved");
         }

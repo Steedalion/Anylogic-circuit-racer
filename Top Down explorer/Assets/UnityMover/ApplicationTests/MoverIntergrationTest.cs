@@ -44,7 +44,7 @@ internal class ListenAndMove : MessageHandler
 {
     public override string ReadAndParse()
     {
-        if (myStream.Peek() < 1)
+        if (myStream.Peek() < -1)
         {
             return null;
         }

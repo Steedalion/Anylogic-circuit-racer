@@ -6,8 +6,8 @@ using UnityMover;
 
 public class PositionListener : MonoBehaviour
 {
-    public LocalListener listener = new LocalListener(IPAddress.Loopback, port, new ListenAndMove());
-    private static int port = 9999;
+    public LocalListener listener;
+    public int port = 9999;
     private MessageIntepretor interpretor;
     public float refreshRate = 1;
     private WaitForSeconds refreshWait;
@@ -16,6 +16,7 @@ public class PositionListener : MonoBehaviour
 
     private void Awake()
     {
+        listener = new LocalListener(IPAddress.Loopback, port, new ListenAndMove());
         interpretor = new MessageIntepretor(GetComponent<Moveable>());
     }
 
@@ -29,7 +30,7 @@ public class PositionListener : MonoBehaviour
     {
         yield return null;
         listener.Start();
-        Debug.Log("Started listener");
+        Debug.Log("Started listener"+port);
         myMessageHandler = listener.MessageHandler();
         yield return UpdateDestination();
     }

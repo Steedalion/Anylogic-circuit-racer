@@ -110,12 +110,17 @@ public class LocalListener
         listener.Start();
         Console.WriteLine("Waiting for client to connect " + port);
         client = listener.AcceptTcpClient();
+        SetStreams();
+        //TODO, should not hang if there is no line.
+    }
+
+    private void SetStreams()
+    {
         Debug.Log("ClientAccepted");
         NetworkStream stream = client.GetStream();
         reader = new StreamReader(stream);
 
         myMessageHandler.SetStream(reader);
-        //TODO, should not hang if there is no line.
     }
 
     public void Stop()

@@ -970,7 +970,7 @@ connection.connect();]]></StartupCode>
 				<EmbeddedObject>
 					<Id>1625025863225</Id>
 					<Name><![CDATA[pedestrian]]></Name>
-					<X>50</X><Y>80</Y>
+					<X>50</X><Y>140</Y>
 					<Label><X>-35</X><Y>-30</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -990,6 +990,9 @@ connection.connect();]]></StartupCode>
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[connection]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[port]]></Name>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -1080,7 +1083,8 @@ connection.connect();]]></StartupCode>
 			<ClientAreaTopLeft><X>0</X><Y>0</Y></ClientAreaTopLeft>
 			<Import><![CDATA[import tcpclient.TcpClient;
 import tcpclient.TCPSender;]]></Import>
-			<StartupCode><![CDATA[connection = new TCPSender("127.0.0.1",9999);
+			<StartupCode><![CDATA[connection = new TCPSender("127.0.0.1",port);
+System.out.println("Connecting on port:"+port);
 connection.Connect();]]></StartupCode>
 			<Generic>false</Generic>
 			<GenericParameter>
@@ -1197,6 +1201,30 @@ connection.Connect();]]></StartupCode>
 						</ParameterEditor>
 					</Properties>                 
 				</Variable>
+				<Variable Class="Parameter">
+					<Id>1625121282256</Id>
+					<Name><![CDATA[port]]></Name>
+					<X>30</X><Y>170</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
+						<Type><![CDATA[int]]></Type>
+						<UnitType><![CDATA[NONE]]></UnitType>
+						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[9999]]></Code>
+						</DefaultValue>
+						<ParameterEditor>
+							<Id>1625121282254</Id>
+							<EditorContolType>TEXT_BOX</EditorContolType>
+							<MinSliderValue><![CDATA[0]]></MinSliderValue>
+							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
+							<DelimeterType>NO_DELIMETER</DelimeterType>
+						</ParameterEditor>
+					</Properties>                 
+				</Variable>
 			</Variables>
 			<Events>
 				<Event>
@@ -1267,7 +1295,7 @@ setPosition(current);
 					<Action><![CDATA[Position current = getPosition();
 String command = "Move : ("+current.x+",0,"+current.y+")";
 connection.WriteLine(command);
-System.out.println("Sending cmd: "+command);
+System.out.println(port+" cmd: "+command);
 ]]></Action>
 				</Event>
 			</Events>

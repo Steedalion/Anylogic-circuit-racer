@@ -31,8 +31,8 @@ public class MoverIntergrationTest
 
         Assert.AreNotEqual(Vector3.zero, uAgent.transform.position);
 
-        GameObject.Destroy(uAgent);
-        GameObject.Destroy(aAgent);
+        Object.Destroy(uAgent);
+        Object.Destroy(aAgent);
     }
 
 }

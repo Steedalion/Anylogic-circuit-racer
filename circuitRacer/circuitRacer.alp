@@ -1258,10 +1258,11 @@ connection.Connect();]]></StartupCode>
 					</Properties>
 					<Action><![CDATA[Position current = getPosition();
 float speed = 0.5f;
-current.x += speed*(Math.random());
-current.y += speed*(Math.random());
-setPosition(current);
-]]></Action>
+double t = time();
+current.x = t;//*sin(t);
+current.y = t*cos(t);
+//setPosition(current);
+moveTo(current);]]></Action>
 				</Event>
 				<Event>
 					<Id>1625107559449</Id>

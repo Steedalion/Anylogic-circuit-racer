@@ -101,7 +101,7 @@ namespace Tests
         }
 
         [Test]
-        public void poReoccuringMessageOrder()
+        public void ReoccuringMessageOrder()
         {
             RecurMessageStore handler = new RecurMessageStore();
             handler.SetStream(reader);

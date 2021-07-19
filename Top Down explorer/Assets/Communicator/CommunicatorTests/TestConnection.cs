@@ -127,6 +127,7 @@ public class LocalListener
     {
         listener.Stop();
         client.Close();
+        client?.Dispose();
     }
 
     public MessageHandler MessageHandler()
@@ -196,7 +197,10 @@ public class AnySyncMock
 
         public void Close()
         {
+            myClient.Dispose();
             myClient.Close();
+            stream.Dispose();
+            stream.Close();
         }
     }
 }

@@ -199,8 +199,8 @@ public class AnySyncMock
         {
             myClient.Dispose();
             myClient.Close();
-            stream.Dispose();
-            stream.Close();
+            // stream.Dispose();
+            // stream.Close();
         }
     }
 }

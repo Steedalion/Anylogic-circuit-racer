@@ -1,7 +1,11 @@
+using System;
 using System.Collections;
-using System.IO;
 using System.Net;
+using System.Net.Sockets;
+using System.Threading.Tasks;
 using NUnit.Framework;
+using UnityEditor.Experimental.GraphView;
+using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.TestTools;
 using Object = UnityEngine.Object;
@@ -24,7 +28,7 @@ public class MoverIntergrationTest
         yield return null;
         uAgent.AddComponent<Teleporter>();
         PositionListener listen = uAgent.AddComponent<PositionListener>();
-        
+
         yield return null;
         yield return null;
         yield return null;
@@ -35,59 +39,49 @@ public class MoverIntergrationTest
         Object.Destroy(aAgent);
     }
 
-}
-
-
-internal class ListenAndMove : MessageHandler
-{
-    public override string ReadAndParse()
+    [UnityTest]
+    public IEnumerator SingleMovementAsync()
     {
-        if (myStream.Peek() < -1)
-        {
-            return null;
-        }
+        GameObject uAgent = Object.Instantiate(new GameObject());
+        GameObject aAgent = Object.Instantiate(new GameObject());
+        yield return null;
+        MockSender sender = aAgent.AddComponent<MockSender>();
+        yield return null;
+        uAgent.AddComponent<Teleporter>();
+        PositionListenerAsync listener = uAgent.AddComponent<PositionListenerAsync>();
 
-        string msg = myStream.ReadLine();
-        Debug.Log( "Reading message:" +msg);
-        return msg;
+        yield return null;
+        yield return null;
+        yield return null;
+        yield return null;
+
+        Assert.AreNotEqual(Vector3.zero, uAgent.transform.position);
     }
 }
 
-
-public class MockSender : MonoBehaviour
+public class AsyncMoverIntergrationTest
 {
-    public AnySyncMock.ClientHandler myClientHandler = new SendPositions();
-    private AnySyncMock sender;
-    private static int port = 9999;
-
-    private void Awake()
-    {
-        sender = new AnySyncMock(IPAddress.Loopback, port, myClientHandler);
-        sender.Start();
-        Debug.Log("Started sender");
-    }
-
-    private void OnDestroy()
-    {
-        sender.Stop();
-    }
 }
 
-internal class SendPositions : AnySyncMock.ClientHandler
+internal class AListener
 {
-    public override void SendOne()
+    public TcpListener listener;
+    public TcpClient connection;
+    private IPAddress ipaddress;
+    private int port;
+
+    public AListener(IPAddress ipAddress, int port)
     {
-        StreamWriter writer = new StreamWriter(stream);
-        writer.WriteLine("Move : (1,1,1)");
-        writer.WriteLine("Move : (1,2,1)");
-        writer.WriteLine("Move : (1,3,1)");
-        writer.Flush();
+        this.ipaddress = ipAddress;
+        this.port = port;
+        listener = new TcpListener(ipAddress,port);
+        listener.Start();
     }
-    //   public virtual void SendOne()
-    // {
-    //      byte[] word = Encoding.ASCII.GetBytes("Hello \n");
-    //     Debug.Log("Send hello");
-    //     int length = word.Length;
-    //     stream.Write(word, 0, length);
-    // }
+
+    public Task ConnectAsync()
+    {
+        return listener.AcceptTcpClientAsync();
+    }
+    
+    
 }

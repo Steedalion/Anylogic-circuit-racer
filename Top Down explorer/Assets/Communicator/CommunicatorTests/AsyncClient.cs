@@ -43,13 +43,6 @@ namespace Tests
             });
         }
 
-        public async void StartConnectionAsync()
-        {
-            await client.ConnectAsync(ip, port);
-            reader = new StreamReader(client.GetStream());
-        }
-
-        
         public Task WriteLineA(string message)
         {
             using StreamWriter writer = new StreamWriter(client.GetStream());

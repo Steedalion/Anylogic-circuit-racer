@@ -2,6 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
+using NUnit.Framework;
 using UnityEngine;
 
 namespace Tests
@@ -28,44 +29,27 @@ namespace Tests
             return result;
         }
 
-        public async void StartListenAsync()
-        {
-            listener.Start();
-            try
-            {
-                while (true)
-                {
-                    Accept(await listener.AcceptTcpClientAsync());
-                }
-            }
-            finally
-            {
-                listener.Stop();
-            }
-        }
-
-
-        private async Task Accept(TcpClient tcpClient)
-        {
-            await Task.Yield();
-            using NetworkStream stream = tcpClient.GetStream();
-            using BufferedStream buf = new BufferedStream(stream);
-            using StreamWriter writer = new StreamWriter(stream);
-            await writer.WriteLineAsync("Connected @ " + ip);
-        }
-
 
         public void Close()
         {
             listener.Stop();
         }
 
-        public Task Sendmsg(TcpClient client)
+        public static Task Sendmsg(TcpClient client, string msg)
         {
             using (StreamWriter writer = new StreamWriter(client.GetStream()))
             {
-                var task = writer.WriteLineAsync("Connected @ " + ip + "\n");
-                task.GetAwaiter().OnCompleted(() => writer.Flush());
+                Task task = writer.WriteLineAsync(msg);
+                // task.GetAwaiter().OnCompleted(() => writer.Flush());
+                return task;
+            }
+        }
+        public static Task<string> RecieveMsg(TcpClient client)
+        {
+            using (StreamReader writer = new StreamReader(client.GetStream()))
+            {
+                Task<string> task = writer.ReadLineAsync();
+                // task.GetAwaiter().OnCompleted(() => writer.Flush());
                 return task;
             }
         }
@@ -79,6 +63,19 @@ namespace Tests
         public EchoTcpMessage(TcpClient client)
         {
             this.client = client;
+        }
+
+        public Task EchoOnce(TcpClient client)
+        {
+            Assert.IsTrue(client.Connected, "SHould still be conencted");
+            using StreamReader reader = new StreamReader(client.GetStream());
+            string msg = reader.ReadLineAsync().Result;
+            using (StreamWriter writer = new StreamWriter(client.GetStream()))
+            {
+                Task task = writer.WriteLineAsync(msg);
+                // task.GetAwaiter().OnCompleted(() => writer.Flush());
+                return task;
+            }
         }
 
         public async void MainLoop()

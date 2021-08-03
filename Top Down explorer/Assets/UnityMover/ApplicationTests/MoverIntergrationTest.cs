@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
@@ -69,19 +70,43 @@ internal class AListener
     public TcpClient connection;
     private IPAddress ipaddress;
     private int port;
+    private StreamReader readStream;
+    private Task<TcpClient> connecTask;
 
     public AListener(IPAddress ipAddress, int port)
     {
         this.ipaddress = ipAddress;
         this.port = port;
-        listener = new TcpListener(ipAddress,port);
+        listener = new TcpListener(ipAddress, port);
         listener.Start();
     }
 
+
     public Task ConnectAsync()
     {
-        return listener.AcceptTcpClientAsync();
+       connecTask = listener.AcceptTcpClientAsync();
+       return connecTask;
     }
-    
-    
+
+    public Task SetStream()
+    {
+        return new Task(() =>
+        {
+            connection = connecTask.Result;
+            readStream = new StreamReader(connection.GetStream());
+        });
+    }
+
+
+    public Task<string> ReadLine()
+    {
+        return readStream.ReadLineAsync();
+    }
+
+
+    public void SetStreamSync()
+    {
+        connection = connecTask.Result;
+        readStream = new StreamReader(connection.GetStream());
+    }
 }

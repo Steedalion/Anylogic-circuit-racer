@@ -30,7 +30,7 @@ public class PositionListener : MonoBehaviour
     {
         yield return null;
         listener.Start();
-        Debug.Log("Started listener"+port);
+        Debug.Log("Started listener" + port);
         myMessageHandler = listener.MessageHandler();
         yield return UpdateDestination();
     }
@@ -40,9 +40,9 @@ public class PositionListener : MonoBehaviour
         while (true)
         {
             yield return refreshWait;
-            
+
             interpretor.Receive(myMessageHandler.ReadAndParse());
-        Debug.Log("listener Moved");
+            Debug.Log("listener Moved");
         }
     }
 

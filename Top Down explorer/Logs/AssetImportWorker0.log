@@ -1,0 +1,1734 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 18363.1679; Version 1909; 64bit' Language: 'en' Physical Memory: 32663 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/steed/Documents/Anylogic/Anylogic-circuit-racer/Top Down explorer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61952
+Successfully changed project path to: C:/Users/steed/Documents/Anylogic/Anylogic-circuit-racer/Top Down explorer
+C:/Users/steed/Documents/Anylogic/Anylogic-circuit-racer/Top Down explorer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 114.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/steed/Documents/Anylogic/Anylogic-circuit-racer/Top Down explorer/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001942 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.417 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  2.184 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2540 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.5 MB.
+System memory in use after: 111.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2988.
+Total: 4.996100 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.097100 ms MarkObjects: 4.508500 ms  DeleteObjects: 0.106800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.0 MB.
+System memory in use after: 110.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2992.
+Total: 3.151800 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.774800 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/AnyObserver/AnyLogicObserver.asmdef
+  artifactKey: Guid(ae89ec6e557bd3d4489058ea6a0fae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AnyObserver/AnyLogicObserver.asmdef using Guid(ae89ec6e557bd3d4489058ea6a0fae98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7994e5570ed01b99df64ff5067685fd6') in 0.053241 seconds
+  Import took 0.058143 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.0 MB.
+System memory in use after: 110.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2996.
+Total: 3.271000 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.089900 ms MarkObjects: 2.911500 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.1 MB.
+System memory in use after: 110.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3000.
+Total: 3.190900 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.099400 ms MarkObjects: 2.808300 ms  DeleteObjects: 0.018100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.1 MB.
+System memory in use after: 110.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3004.
+Total: 3.116900 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.107700 ms MarkObjects: 2.720800 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.0 MB.
+System memory in use after: 110.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3008.
+Total: 3.276600 ms (FindLiveObjects: 0.289700 ms CreateObjectMapping: 0.144400 ms MarkObjects: 2.824800 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.807066 seconds.
+  path: Assets/Scripts/Controllers/SpeedController.asmdef
+  artifactKey: Guid(ef17563294d34104eb08582685d94e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controllers/SpeedController.asmdef using Guid(ef17563294d34104eb08582685d94e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388c935cafd082c8faf0ab3f4b543484') in 0.010026 seconds
+  Import took 0.014743 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.1 MB.
+System memory in use after: 110.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3012.
+Total: 3.611400 ms (FindLiveObjects: 0.259600 ms CreateObjectMapping: 0.103800 ms MarkObjects: 3.228800 ms  DeleteObjects: 0.018200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002537 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.1 MB.
+System memory in use after: 110.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3016.
+Total: 3.242500 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.112000 ms MarkObjects: 2.855900 ms  DeleteObjects: 0.016200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.1 MB.
+System memory in use after: 110.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3020.
+Total: 3.474500 ms (FindLiveObjects: 0.229500 ms CreateObjectMapping: 0.102500 ms MarkObjects: 3.123200 ms  DeleteObjects: 0.017900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001884 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.131 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.2 MB.
+System memory in use after: 110.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3024.
+Total: 3.156500 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.113300 ms MarkObjects: 2.781500 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 803.617671 seconds.
+  path: Assets/Scripts/AnyObserver
+  artifactKey: Guid(d77ce1575f0f5b94aa23af84729c6bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AnyObserver using Guid(d77ce1575f0f5b94aa23af84729c6bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62db161b90a86adc5cba8b3e1cf17c8') in 0.014656 seconds
+  Import took 0.019744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005945 seconds.
+  path: Assets/Scripts/AnyObserver
+  artifactKey: Guid(d77ce1575f0f5b94aa23af84729c6bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AnyObserver using Guid(d77ce1575f0f5b94aa23af84729c6bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62db161b90a86adc5cba8b3e1cf17c8') in 0.002501 seconds
+  Import took 0.009389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.822431 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Body_Diffuse.png
+  artifactKey: Guid(63f48b5c08d25467e9e11be363436e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Body_Diffuse.png using Guid(63f48b5c08d25467e9e11be363436e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a592d79ad8680012b5260ec76c38c73b') in 0.116251 seconds
+  Import took 0.120902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Shoes_Diffuse.png
+  artifactKey: Guid(776f8e146d5354c22b5629bbb95ccce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Shoes_Diffuse.png using Guid(776f8e146d5354c22b5629bbb95ccce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acc8800944dadfaa3cc31320162d551') in 0.013870 seconds
+  Import took 0.017662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Top_Normal.png
+  artifactKey: Guid(1aeb778bb2b3a401e84b5e25fdeaf240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Top_Normal.png using Guid(1aeb778bb2b3a401e84b5e25fdeaf240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaa22ed9f08233c70d63c8cb375fca1') in 0.020408 seconds
+  Import took 0.026092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Body_Opacity.png
+  artifactKey: Guid(bcdbf42ac168941d9813795bf1fb156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Body_Opacity.png using Guid(bcdbf42ac168941d9813795bf1fb156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47449dbe5be2c2377ed8cba5dd880dd7') in 0.018713 seconds
+  Import took 0.024080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Shoes_Normal.png
+  artifactKey: Guid(befec42db9dae439089f7e20ec1af028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Shoes_Normal.png using Guid(befec42db9dae439089f7e20ec1af028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15361075a51a64cfed65e5e538ad8e0') in 0.023599 seconds
+  Import took 0.029149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Shoes_Gloss.png
+  artifactKey: Guid(a617ec71c665d4c57afce037bd4d0cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Shoes_Gloss.png using Guid(a617ec71c665d4c57afce037bd4d0cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a612f41b761e6b2d99fe5875f96b4e') in 0.016541 seconds
+  Import took 0.021551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Bottom_Opacity.png
+  artifactKey: Guid(7acaa355b6e6d457f925cc8e7ca313c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Bottom_Opacity.png using Guid(7acaa355b6e6d457f925cc8e7ca313c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5aa1ea76bfbbdd7f245013b7f39d84') in 0.029160 seconds
+  Import took 0.034926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Body_Normal.png
+  artifactKey: Guid(8152d0602b6ae4017956e2d21f8ed9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Body_Normal.png using Guid(8152d0602b6ae4017956e2d21f8ed9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f1746dabad2bd5748b3f7542f0a62c') in 0.015049 seconds
+  Import took 0.020237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Hair_Diffuse.png
+  artifactKey: Guid(4f20b215604934d24bc3f90fc52f1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Hair_Diffuse.png using Guid(4f20b215604934d24bc3f90fc52f1095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152147d5f8cf73f61a4e3926b52b770b') in 0.018492 seconds
+  Import took 0.024160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Hair_Gloss.png
+  artifactKey: Guid(b4035bde01fe2473d87ebc46aa56e770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Hair_Gloss.png using Guid(b4035bde01fe2473d87ebc46aa56e770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b333ab5f22c3588053f615b5fdfac3c9') in 0.011171 seconds
+  Import took 0.017012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Hair_Opacity.png
+  artifactKey: Guid(3b52855133bd34391839dbee345c814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Hair_Opacity.png using Guid(3b52855133bd34391839dbee345c814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd12307da3e8748ee91d3d57b416ca6c') in 0.011379 seconds
+  Import took 0.017007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Bottom_Gloss.png
+  artifactKey: Guid(e623376c7ad144cdda4de8b051caff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Bottom_Gloss.png using Guid(e623376c7ad144cdda4de8b051caff62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac3a8ce7fecac4964ed0f892e5115d2') in 0.011404 seconds
+  Import took 0.015635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Bottom_Specular.png
+  artifactKey: Guid(991327b6750f240a88a7d547cbe33e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Bottom_Specular.png using Guid(991327b6750f240a88a7d547cbe33e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90b16cd71ba3bdb66bb00f7df0a720d') in 0.010951 seconds
+  Import took 0.015360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Hair_Specular.png
+  artifactKey: Guid(fa1fbd77e2de14289b1e3b28c7111382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Hair_Specular.png using Guid(fa1fbd77e2de14289b1e3b28c7111382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933d2e0fbbf50ce23842aecb45dc5c5e') in 0.012264 seconds
+  Import took 0.016709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Body_Specular.png
+  artifactKey: Guid(22539412a65a642b5856673a2acf8d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Body_Specular.png using Guid(22539412a65a642b5856673a2acf8d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48ed787ced87352371064dbc28c5a97') in 0.012169 seconds
+  Import took 0.016569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Top_Specular.png
+  artifactKey: Guid(6df0e0dd6bad943909a61c8311ec2a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Top_Specular.png using Guid(6df0e0dd6bad943909a61c8311ec2a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6544ab7bb5c699af95eb67d2ab031ec6') in 0.011995 seconds
+  Import took 0.016544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Hair_Normal.png
+  artifactKey: Guid(1cd5dcf39337d4667b8ba9cc29196674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Hair_Normal.png using Guid(1cd5dcf39337d4667b8ba9cc29196674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'effea22df54843fea82f1faf9430c769') in 0.011771 seconds
+  Import took 0.016487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Shoes_Specular.png
+  artifactKey: Guid(6c51ec49088e54c51a834cd5ec827322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Shoes_Specular.png using Guid(6c51ec49088e54c51a834cd5ec827322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a73c82c258290c405b8f352ebb78b5') in 0.011322 seconds
+  Import took 0.015887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Bottom_Normal.png
+  artifactKey: Guid(c6c6b1139d0c64cdd9053f32619951b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Bottom_Normal.png using Guid(c6c6b1139d0c64cdd9053f32619951b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d76b8af13fdba38263825204b5da24') in 0.012774 seconds
+  Import took 0.017434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Top_Diffuse.png
+  artifactKey: Guid(fd4b8e466db784d6dac45368101b658f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Top_Diffuse.png using Guid(fd4b8e466db784d6dac45368101b658f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9086f59be95b26c020d62a199a46de') in 0.012360 seconds
+  Import took 0.016471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Body_Gloss.png
+  artifactKey: Guid(b1e328f09a5104019bbfa346fede43ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Body_Gloss.png using Guid(b1e328f09a5104019bbfa346fede43ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a865820c36354f9804a218983ceb99a') in 0.011892 seconds
+  Import took 0.016018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Bottom_Diffuse.png
+  artifactKey: Guid(8d40b40d0e9b44c83957ec938937ec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Bottom_Diffuse.png using Guid(8d40b40d0e9b44c83957ec938937ec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9c045b5ad8113728d0a11cfb0905e1') in 0.011441 seconds
+  Import took 0.016108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Top_Gloss.png
+  artifactKey: Guid(a9592665c689b4c21b339ca1d8c75c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Top_Gloss.png using Guid(a9592665c689b4c21b339ca1d8c75c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30ef83feca92d7f3fd9a0c9b8ede9fa') in 0.010703 seconds
+  Import took 0.015697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Top_Opacity.png
+  artifactKey: Guid(6e6160310a2444515b779a9202c2c8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Top_Opacity.png using Guid(6e6160310a2444515b779a9202c2c8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f23b615ec08f855324c4bfd21690fe') in 0.010998 seconds
+  Import took 0.015985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Shoes_Opacity.png
+  artifactKey: Guid(6009cf9e18f1849ccaecd44398a547c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbm/Girl_1_Shoes_Opacity.png using Guid(6009cf9e18f1849ccaecd44398a547c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467433a30e30782451c90680ae2ac81c') in 0.010632 seconds
+  Import took 0.015257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.170268 seconds.
+  path: Assets/AssetStoreTools/People/Brutius.fbx
+  artifactKey: Guid(28b9d4414d24c4fddb2bdbdae494d017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Brutius.fbx using Guid(28b9d4414d24c4fddb2bdbdae494d017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8c6a6bea3f63c0a4c4966b77967b4a') in 0.337856 seconds
+  Import took 0.344086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/AssetStoreTools/People/Male_1.fbx
+  artifactKey: Guid(7d775aa96cfc246c9b8ce7029a885938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Male_1.fbx using Guid(7d775aa96cfc246c9b8ce7029a885938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edb6bfff6b1ae18b4353501163a48e1') in 0.071519 seconds
+  Import took 0.076199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/AssetStoreTools/People/Girl_1.fbx
+  artifactKey: Guid(99bbb97e7b9c34ae6bd8c3fc34dbc6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_1.fbx using Guid(99bbb97e7b9c34ae6bd8c3fc34dbc6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ccddd76eb92315d224d670d2fc2644') in 0.074242 seconds
+  Import took 0.079078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/AssetStoreTools/People/Male_2.fbx
+  artifactKey: Guid(d17591ccdd85147668b58267b3d06f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Male_2.fbx using Guid(d17591ccdd85147668b58267b3d06f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3988c25bedaa8db1d8c04b8a5ab28c48') in 0.076336 seconds
+  Import took 0.081228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/AssetStoreTools/People/Girl_3.fbx
+  artifactKey: Guid(24a4f034039cd4f8db3d911d9422b571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_3.fbx using Guid(24a4f034039cd4f8db3d911d9422b571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672ebdd40b715e417d8f9203260e309a') in 0.081512 seconds
+  Import took 0.085973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/AssetStoreTools/People/FunkeyMonkey.fbx
+  artifactKey: Guid(e414cffd20d1c4c9387b91a1d2b20ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/FunkeyMonkey.fbx using Guid(e414cffd20d1c4c9387b91a1d2b20ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249c502b93495bd4ee03a8d6236c0c78') in 0.088467 seconds
+  Import took 0.093293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/AssetStoreTools/People/Girl_2.fbx
+  artifactKey: Guid(56b0baa3aaae042b6aff80aa8e7cc807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_2.fbx using Guid(56b0baa3aaae042b6aff80aa8e7cc807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9c79753df88c0a00d6d2dc569b024b') in 0.077735 seconds
+  Import took 0.082238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStoreTools/People/regina@Dwarf Idle.fbx
+  artifactKey: Guid(d0d06a9868d674df2a52ecf984148026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/regina@Dwarf Idle.fbx using Guid(d0d06a9868d674df2a52ecf984148026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d94351854cd6d4249356855486dadf2') in 0.314906 seconds
+  Import took 0.320299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/AssetStoreTools/People/Girl_4.fbx
+  artifactKey: Guid(4e5d39cef4a1f4fb59d8428223cd07f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_4.fbx using Guid(4e5d39cef4a1f4fb59d8428223cd07f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6871359538a2465c3cf979c6512ad9') in 0.081383 seconds
+  Import took 0.086092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/AssetStoreTools/People/Male_3.fbx
+  artifactKey: Guid(76101ab1057434476a8453baaeadd4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Male_3.fbx using Guid(76101ab1057434476a8453baaeadd4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cc09c550620e1cdc0586d23ed26f69') in 0.088165 seconds
+  Import took 0.093541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/AssetStoreTools/People/Girl_5.fbx
+  artifactKey: Guid(d7ff0367464744cceabbcfbc93030ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Girl_5.fbx using Guid(d7ff0367464744cceabbcfbc93030ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273fce1a23e4bf84e80d4ff4220ed8f7') in 0.080626 seconds
+  Import took 0.085039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/AssetStoreTools/People/regina@Walking.fbx
+  artifactKey: Guid(c0f1a1b0003294606a60b27bc0439c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/regina@Walking.fbx using Guid(c0f1a1b0003294606a60b27bc0439c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c820c6de199636470468e542aa66283') in 0.086661 seconds
+  Import took 0.091469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/AssetStoreTools/People/regina@Running.fbx
+  artifactKey: Guid(d120b0527078941adb954650829126a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/regina@Running.fbx using Guid(d120b0527078941adb954650829126a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1578bd19a302f77f5b3ebe7413718f') in 0.087500 seconds
+  Import took 0.092476 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.136 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.4 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3044.
+Total: 3.048200 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.121100 ms MarkObjects: 2.658300 ms  DeleteObjects: 0.016800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3048.
+Total: 3.771500 ms (FindLiveObjects: 0.375300 ms CreateObjectMapping: 0.087500 ms MarkObjects: 3.267100 ms  DeleteObjects: 0.040700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002856 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2520 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3052.
+Total: 3.297700 ms (FindLiveObjects: 0.235300 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.942600 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3057.
+Total: 3.718900 ms (FindLiveObjects: 0.252900 ms CreateObjectMapping: 0.100200 ms MarkObjects: 3.345600 ms  DeleteObjects: 0.019200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.813571 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/001. Intro.png
+  artifactKey: Guid(779432fd042920d4583db32ce9a499e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/001. Intro.png using Guid(779432fd042920d4583db32ce9a499e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c7be23c2cb82e1a1b6e11ac0fe2506') in 0.052691 seconds
+  Import took 0.057050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/401. Smart Selection.png
+  artifactKey: Guid(b34c55b6362036443b3d1559a4f3cd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/401. Smart Selection.png using Guid(b34c55b6362036443b3d1559a4f3cd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6e6ff600166ee70d8ff6c1effca154') in 0.020385 seconds
+  Import took 0.025380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/908. Add Component by Shortcut.png
+  artifactKey: Guid(fb0caabb3e11496458d08d0c83bf6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/908. Add Component by Shortcut.png using Guid(fb0caabb3e11496458d08d0c83bf6074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d38498245ea76aab79ba9d4fcaff37f') in 0.022877 seconds
+  Import took 0.027227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/802. History Action.png
+  artifactKey: Guid(6cbc83fae9ce0f9418e7e9264f964e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/802. History Action.png using Guid(6cbc83fae9ce0f9418e7e9264f964e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3620bb21c428f2265a3a3a53234b156') in 0.021096 seconds
+  Import took 0.024781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/602. View State for Selection.png
+  artifactKey: Guid(86fc9a1fbba14c449b8bdc35d317f3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/602. View State for Selection.png using Guid(86fc9a1fbba14c449b8bdc35d317f3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b7f7b4021d1480299e2b3246890462') in 0.020432 seconds
+  Import took 0.024284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/906.50. Tool Values.png
+  artifactKey: Guid(bb865c6636286ca48ac5838f3bace731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/906.50. Tool Values.png using Guid(bb865c6636286ca48ac5838f3bace731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd02661c41b3d2d889e36affbea7ff8') in 0.019512 seconds
+  Import took 0.023811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/909. Rename.png
+  artifactKey: Guid(0c00b68fe96bfbd408d7a77ea39f809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/909. Rename.png using Guid(0c00b68fe96bfbd408d7a77ea39f809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc88346abb9244be708f51361e9092b6') in 0.020064 seconds
+  Import took 0.024385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/700. Windows In Toolbar.png
+  artifactKey: Guid(5063a2bdcf72da64caa3d7eeabe0ac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/700. Windows In Toolbar.png using Guid(5063a2bdcf72da64caa3d7eeabe0ac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c623df8d356f07c1fbe69752a54c5e') in 0.021986 seconds
+  Import took 0.026675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/300. Bookmarks.png
+  artifactKey: Guid(371916bed8f40cf4494dd1207c31fcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/300. Bookmarks.png using Guid(371916bed8f40cf4494dd1207c31fcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901b25baf0a19f81b328650499c90a5a') in 0.020621 seconds
+  Import took 0.025395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/103. Open Window.png
+  artifactKey: Guid(c5ff691da22c7e1428bf80cf92952398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/103. Open Window.png using Guid(c5ff691da22c7e1428bf80cf92952398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ce09922404ac170dd1d8728c10cd59') in 0.020179 seconds
+  Import took 0.024522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/140. GameObject Toolbar.png
+  artifactKey: Guid(fbca8d23c9c7c664bad1deeab6244282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/140. GameObject Toolbar.png using Guid(fbca8d23c9c7c664bad1deeab6244282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bbdaf46ded6da92ca72433e83bdc64') in 0.020052 seconds
+  Import took 0.024498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/906. Tool Values.png
+  artifactKey: Guid(f5d7a2bffb1d4d241941b186b0726c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/906. Tool Values.png using Guid(f5d7a2bffb1d4d241941b186b0726c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b17c6ffbfde162c595ca4d37b72af6e') in 0.019625 seconds
+  Import took 0.024857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/400. Waila.png
+  artifactKey: Guid(77bb757099d13b64f82870a889d76929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/400. Waila.png using Guid(77bb757099d13b64f82870a889d76929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f2633c4f752ac48b282e158efbae24') in 0.019085 seconds
+  Import took 0.023879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/904.50. Drop To Floor.png
+  artifactKey: Guid(3431f74d2aea0db4886d2524c90fcf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/904.50. Drop To Floor.png using Guid(3431f74d2aea0db4886d2524c90fcf06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eaf04c8e34057d6f58847abc262a0bc') in 0.020051 seconds
+  Import took 0.025819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/904.25. Rotate By Shortcut.png
+  artifactKey: Guid(a1be0096d5a59544ea80931998ad47ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/904.25. Rotate By Shortcut.png using Guid(a1be0096d5a59544ea80931998ad47ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2491cfb6716999751b499f788794d9e4') in 0.019867 seconds
+  Import took 0.023689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/601. Quick Preview.png
+  artifactKey: Guid(88a34a5195e20ba4d83f1ecfdbcdaa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/601. Quick Preview.png using Guid(88a34a5195e20ba4d83f1ecfdbcdaa4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d088c19d99d26628b77a4b98aa17c9') in 0.021026 seconds
+  Import took 0.024802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/102. Windows.png
+  artifactKey: Guid(b0e50102afecea04e874f51ff5c0dcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/102. Windows.png using Guid(b0e50102afecea04e874f51ff5c0dcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fed1c570d1ffcecbef8c04375544af6') in 0.019014 seconds
+  Import took 0.022994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/910. Size of Terrain Brush.png
+  artifactKey: Guid(8dcb4d82ceec20548971b4375e1e3ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/910. Size of Terrain Brush.png using Guid(8dcb4d82ceec20548971b4375e1e3ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c919d54167e2c48f103b04d45a9273') in 0.021211 seconds
+  Import took 0.026139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/800. Selection History.png
+  artifactKey: Guid(a62239f427c69314a8657131f8c1da7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/800. Selection History.png using Guid(a62239f427c69314a8657131f8c1da7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0867512cd13cf27552b4cc7e6e2ee577') in 0.019671 seconds
+  Import took 0.023709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/200. Object Placer.png
+  artifactKey: Guid(aac211674065186468bc238ad9173055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/200. Object Placer.png using Guid(aac211674065186468bc238ad9173055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153534b70bd780b359f733cadd1f78db') in 0.019430 seconds
+  Import took 0.023637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/899. Best Icons For GameObject.png
+  artifactKey: Guid(c9c820050eb804e4ab67753bfe425305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/899. Best Icons For GameObject.png using Guid(c9c820050eb804e4ab67753bfe425305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b5a098c156f2d4b273f1ed33707a3d') in 0.019430 seconds
+  Import took 0.024115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/604. View State In Scene View.png
+  artifactKey: Guid(299bdcfce377bd84faedfcb1bc8dfd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/604. View State In Scene View.png using Guid(299bdcfce377bd84faedfcb1bc8dfd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33600757efbcd454d299a52d703df5aa') in 0.019419 seconds
+  Import took 0.024444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/801. Recent Scenes.png
+  artifactKey: Guid(206642274d097d645a7bd23b09c4da49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/801. Recent Scenes.png using Guid(206642274d097d645a7bd23b09c4da49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5001dc1125b2b0cfad27e3d2d230840') in 0.019622 seconds
+  Import took 0.023979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/904.65. Frame Selected Bounds.png
+  artifactKey: Guid(d40f617649a134d4bb414d98481ecc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/904.65. Frame Selected Bounds.png using Guid(d40f617649a134d4bb414d98481ecc61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c76d54d86e5c5b21b5def86ed7a16a3') in 0.021248 seconds
+  Import took 0.025088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/900. Hierarchy Icons.png
+  artifactKey: Guid(b33c914184fd95a488f38ba92b16b686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/900. Hierarchy Icons.png using Guid(b33c914184fd95a488f38ba92b16b686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad91a7b2b50349a4fde6061e8294c97f') in 0.019044 seconds
+  Import took 0.023078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/402. Real World Terrain Info.png
+  artifactKey: Guid(95794e30124c4524a97c9103776bedd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/402. Real World Terrain Info.png using Guid(95794e30124c4524a97c9103776bedd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a8791e295c1cbc850aa3ee508973a4') in 0.020130 seconds
+  Import took 0.025189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/600. View Gallery.png
+  artifactKey: Guid(3cb8b935d3ad16e4c81e9558bc047af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/600. View Gallery.png using Guid(3cb8b935d3ad16e4c81e9558bc047af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731ffe211a1b9c5ff4d5bfbe1d0fb5e2') in 0.019668 seconds
+  Import took 0.023332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/104.50. Debug Mode For Component.png
+  artifactKey: Guid(d32084f69896406428f73f5918627e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/104.50. Debug Mode For Component.png using Guid(d32084f69896406428f73f5918627e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b2ece775b0e928d402cab85f935907') in 0.019578 seconds
+  Import took 0.025341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/902. Duplicate Tool.png
+  artifactKey: Guid(8ecb0d7843db2a342a71e4f7b54fb6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/902. Duplicate Tool.png using Guid(8ecb0d7843db2a342a71e4f7b54fb6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abed54b7a0c90e3d47197d4e5b268894') in 0.019166 seconds
+  Import took 0.023483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/911. Drag and Drop to Canvas.png
+  artifactKey: Guid(9823eea8f5ccf4243aea7030e3ec71ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/911. Drag and Drop to Canvas.png using Guid(9823eea8f5ccf4243aea7030e3ec71ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88746072dc88cc1f94da33da0f4c966a') in 0.020105 seconds
+  Import took 0.024758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/201. Quick Replace.png
+  artifactKey: Guid(019ced288cf02c441927b9f07b68f23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/201. Quick Replace.png using Guid(019ced288cf02c441927b9f07b68f23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e827e21b847a45cadeca2313e87802') in 0.020360 seconds
+  Import took 0.024690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/904. Group and Ungroup.png
+  artifactKey: Guid(c54a9e8161c6b1a49be5f40c76fed253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/904. Group and Ungroup.png using Guid(c54a9e8161c6b1a49be5f40c76fed253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90889b4b11e14a2f45f45af9bd3bae90') in 0.020569 seconds
+  Import took 0.024864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/904.75. Jump To Point.png
+  artifactKey: Guid(d5714bc5871905844ad0a2182d334bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/904.75. Jump To Point.png using Guid(d5714bc5871905844ad0a2182d334bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d48e164a025d379079fed6fab16f5e') in 0.021286 seconds
+  Import took 0.025419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/912. Real World Terrain Extra.png
+  artifactKey: Guid(e1df69deb9e90884ca8ecc387dba1240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/912. Real World Terrain Extra.png using Guid(e1df69deb9e90884ca8ecc387dba1240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e312a93aa68bf01783b527331d178a7f') in 0.019513 seconds
+  Import took 0.024595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/907. Switcher.png
+  artifactKey: Guid(ec946ebc190fdc5439cabd7ea0463e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/907. Switcher.png using Guid(ec946ebc190fdc5439cabd7ea0463e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa540debdf411a03e73f0747dd14b1c6') in 0.020337 seconds
+  Import took 0.024548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/UnityMover/ApplicationTests/ApplicationTests.asmdef
+  artifactKey: Guid(0e561b7cf96147f4fa2d0c71f91f4153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityMover/ApplicationTests/ApplicationTests.asmdef using Guid(0e561b7cf96147f4fa2d0c71f91f4153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63f3fe944051631e52175f22b327415') in 0.008029 seconds
+  Import took 0.011976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/500. Smart Search.png
+  artifactKey: Guid(69568b53b1dc1754a932d584ec511e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/500. Smart Search.png using Guid(69568b53b1dc1754a932d584ec511e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8a73ab83b0b1a7775e02ab83af66d9') in 0.018637 seconds
+  Import took 0.023383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/905. Selection Bounds.png
+  artifactKey: Guid(a015ae9e87894f24b98adc2b0b960500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/905. Selection Bounds.png using Guid(a015ae9e87894f24b98adc2b0b960500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8386fd90e9a5d2c2a49d9a889711d58') in 0.021077 seconds
+  Import took 0.025166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/100. Open Context Menu.png
+  artifactKey: Guid(c7c5e70fb351b3a4a930931851f7dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/100. Open Context Menu.png using Guid(c7c5e70fb351b3a4a930931851f7dcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ab8abd6888f8df167486d67de27f53') in 0.018756 seconds
+  Import took 0.022495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/950. Editor Icon Browser.png
+  artifactKey: Guid(d2dc9148ca7eca84fa7beeb2858b6020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/950. Editor Icon Browser.png using Guid(d2dc9148ca7eca84fa7beeb2858b6020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b09c1c01fa0882047cacc113971382') in 0.021994 seconds
+  Import took 0.026426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/141. Related Components.png
+  artifactKey: Guid(5543b2e3a15c0fb478675bdd36ed5c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/141. Related Components.png using Guid(5543b2e3a15c0fb478675bdd36ed5c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ec48a254aca141d0601aae42a3f144') in 0.019258 seconds
+  Import took 0.024109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/903. Distance Tool.png
+  artifactKey: Guid(ebcd2827ebbc15846a3d03a003dfb724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/903. Distance Tool.png using Guid(ebcd2827ebbc15846a3d03a003dfb724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243e5a81fb6024c1dcc774157636db1e') in 0.021327 seconds
+  Import took 0.027008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/160. Quick Access Bar.png
+  artifactKey: Guid(f25f04fb016f07a43bfa23e9a084eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/160. Quick Access Bar.png using Guid(f25f04fb016f07a43bfa23e9a084eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616f3f4bc01a5bdcfce725c42e82f584') in 0.022180 seconds
+  Import took 0.028332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/101. Breadcrumbs.png
+  artifactKey: Guid(92ca33c81dd00bd4aad95d3675863bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/101. Breadcrumbs.png using Guid(92ca33c81dd00bd4aad95d3675863bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd852b269bc3ade2dfe503e71b2e597') in 0.019540 seconds
+  Import took 0.024508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/701. Favorite Windows.png
+  artifactKey: Guid(1ad0886618911aa448f02777189db141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/701. Favorite Windows.png using Guid(1ad0886618911aa448f02777189db141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c209ba56dd8d4da24b7e218d836a87b5') in 0.021547 seconds
+  Import took 0.025839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/104. Popup Window.png
+  artifactKey: Guid(4de09ef75650d124ca31cadffc3223ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/104. Popup Window.png using Guid(4de09ef75650d124ca31cadffc3223ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6e740aae54d78cf60c2bd47e8d66cc') in 0.020056 seconds
+  Import took 0.024663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/105. Actions.png
+  artifactKey: Guid(7f4b44988439036498abae015d369cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/105. Actions.png using Guid(7f4b44988439036498abae015d369cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c527d7e37252ff280e578c685f670d0') in 0.022466 seconds
+  Import took 0.026950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/603. Views And Cameras Action.png
+  artifactKey: Guid(bafbb9bb92700f445b80276c682370ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/Plugins/Infinity Code/uContext/Textures/Getting Started/603. Views And Cameras Action.png using Guid(bafbb9bb92700f445b80276c682370ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a937a6fc2a29abe8341723e7aaf7495') in 0.020837 seconds
+  Import took 0.025487 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002968 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3062.
+Total: 3.200900 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.114500 ms MarkObjects: 2.811000 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.196833 seconds.
+  path: Assets/AssetStoreTools/People/Crowd.controller
+  artifactKey: Guid(488b0bbbdfba64fe09fc11cd45491b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreTools/People/Crowd.controller using Guid(488b0bbbdfba64fe09fc11cd45491b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adac658989cbf535c49823eb486f330a') in 0.025815 seconds
+  Import took 0.030554 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.357 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3066.
+Total: 4.622500 ms (FindLiveObjects: 0.446400 ms CreateObjectMapping: 0.161700 ms MarkObjects: 3.969400 ms  DeleteObjects: 0.043700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002975 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3070.
+Total: 3.834100 ms (FindLiveObjects: 0.263400 ms CreateObjectMapping: 0.084400 ms MarkObjects: 3.462400 ms  DeleteObjects: 0.022400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.450 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3074.
+Total: 5.189600 ms (FindLiveObjects: 0.375500 ms CreateObjectMapping: 0.376700 ms MarkObjects: 4.403600 ms  DeleteObjects: 0.032500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002890 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.229 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3078.
+Total: 3.759100 ms (FindLiveObjects: 0.313900 ms CreateObjectMapping: 0.092700 ms MarkObjects: 3.302600 ms  DeleteObjects: 0.048500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002519 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3082.
+Total: 3.383800 ms (FindLiveObjects: 0.326600 ms CreateObjectMapping: 0.111500 ms MarkObjects: 2.925700 ms  DeleteObjects: 0.018900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3086.
+Total: 3.358400 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.146900 ms MarkObjects: 2.947900 ms  DeleteObjects: 0.015600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002909 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3091.
+Total: 3.878000 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.098200 ms MarkObjects: 3.460800 ms  DeleteObjects: 0.082700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3095.
+Total: 4.149800 ms (FindLiveObjects: 0.327200 ms CreateObjectMapping: 0.121900 ms MarkObjects: 3.660100 ms  DeleteObjects: 0.039200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3099.
+Total: 3.110700 ms (FindLiveObjects: 0.297200 ms CreateObjectMapping: 0.081300 ms MarkObjects: 2.715100 ms  DeleteObjects: 0.016200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002396 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3103.
+Total: 3.846000 ms (FindLiveObjects: 0.241300 ms CreateObjectMapping: 0.098800 ms MarkObjects: 3.471400 ms  DeleteObjects: 0.033400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3107.
+Total: 3.276500 ms (FindLiveObjects: 0.260800 ms CreateObjectMapping: 0.123000 ms MarkObjects: 2.848600 ms  DeleteObjects: 0.043100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3111.
+Total: 3.577200 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.091200 ms MarkObjects: 3.176500 ms  DeleteObjects: 0.031400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3115.
+Total: 3.389300 ms (FindLiveObjects: 0.258200 ms CreateObjectMapping: 0.116600 ms MarkObjects: 2.978200 ms  DeleteObjects: 0.035300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002343 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.445 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.8 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3119.
+Total: 5.035600 ms (FindLiveObjects: 0.349400 ms CreateObjectMapping: 0.172900 ms MarkObjects: 4.472500 ms  DeleteObjects: 0.024700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.8 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3123.
+Total: 3.456600 ms (FindLiveObjects: 0.417900 ms CreateObjectMapping: 0.146000 ms MarkObjects: 2.851600 ms  DeleteObjects: 0.040000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.424 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3127.
+Total: 4.115500 ms (FindLiveObjects: 0.378300 ms CreateObjectMapping: 0.160400 ms MarkObjects: 3.541000 ms  DeleteObjects: 0.034300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.8 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3131.
+Total: 5.582000 ms (FindLiveObjects: 0.530500 ms CreateObjectMapping: 0.253800 ms MarkObjects: 4.760800 ms  DeleteObjects: 0.034800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.8 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3135.
+Total: 5.205800 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.202700 ms MarkObjects: 4.550100 ms  DeleteObjects: 0.024200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.8 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3139.
+Total: 3.518200 ms (FindLiveObjects: 0.246500 ms CreateObjectMapping: 0.105200 ms MarkObjects: 3.107200 ms  DeleteObjects: 0.058100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.8 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3143.
+Total: 3.523700 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.097000 ms MarkObjects: 3.125200 ms  DeleteObjects: 0.017200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002337 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/light.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/light.uss
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3147.
+Total: 3.321700 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.090600 ms MarkObjects: 2.930100 ms  DeleteObjects: 0.016600 ms)
+

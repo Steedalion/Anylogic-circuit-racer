@@ -10,7 +10,6 @@ public class UpdateSpeed : MonoBehaviour
 
     [SerializeField] private float gain = 1;
     [SerializeField] private float smoothing = 0.1f;
-    public UnityEvent<float> updateSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +21,6 @@ public class UpdateSpeed : MonoBehaviour
     void Update()
     {
         agent.speed = CalculateNewSpeed();
-        updateSpeed.Invoke(agent.speed);
     }
 
     private float CalculateNewSpeed()

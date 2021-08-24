@@ -26,7 +26,7 @@ namespace UnityMover
                 string coordinates = split[1];
 
                 Vector3 destination = ToVector3(coordinates);
-                moveable.SetDestination(destination);
+                moveable.SetNextDestination(destination);
                 moveable.MoveTo();
                 Debug.Log("Moving too: " + destination + " with" + moveable);
                 return moveable;
@@ -56,7 +56,7 @@ namespace UnityMover
 
     public interface Moveable
     {
-        void SetDestination(Vector3 destination);
+        void SetNextDestination(Vector3 destination);
         void MoveTo();
     }
 }

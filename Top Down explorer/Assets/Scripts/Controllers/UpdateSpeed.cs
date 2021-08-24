@@ -1,23 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Events;
 
+[RequireComponent(typeof(NavMeshAgent))]
 public class UpdateSpeed : MonoBehaviour
 {
     private NavMeshAgent agent;
 
-    [SerializeField] private float gain = 1;
-    [SerializeField] private float smoothing = 0.1f;
+    [SerializeField] private float gain = 0.75f;
+    [SerializeField] private float smoothing = 0.05f;
 
-    // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         agent.speed = CalculateNewSpeed();

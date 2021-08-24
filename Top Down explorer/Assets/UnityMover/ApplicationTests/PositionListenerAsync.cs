@@ -1,21 +1,21 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO.Pipes;
+﻿using System.Collections;
 using System.Net;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityMover;
 
+[RequireComponent(typeof(Moveable))]
+// [RequireComponent(typeof(MessageIntepretor))]
 public class PositionListenerAsync : MonoBehaviour
 {
     [SerializeField] private int port;
-    [SerializeField] private float period;
+    [SerializeField] private float period = 0.1f;
     private AListener listener;
     private Task StartListenning;
     private Task<string> cmd;
     private bool wasConnected;
     private MessageIntepretor interpretor;
+    [TextArea] public string message = "You need to add a move Object here.";
 
     private WaitForSeconds wait;
 

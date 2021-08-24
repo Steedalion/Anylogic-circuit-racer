@@ -80,7 +80,7 @@ namespace Tests
     {
         public Vector3 location = Vector3.zero;
         private Vector3 mydestination;
-        public void SetDestination(Vector3 destination)
+        public void SetNextDestination(Vector3 destination)
         {
             mydestination = destination;
         }

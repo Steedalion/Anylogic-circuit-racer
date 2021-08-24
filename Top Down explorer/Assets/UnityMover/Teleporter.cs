@@ -7,7 +7,7 @@ public class Teleporter : MonoBehaviour, Moveable
 {
     private Vector3 myDestination;
 
-    public void SetDestination(Vector3 destination)
+    public void SetNextDestination(Vector3 destination)
     {
          myDestination = destination;
     }

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.AI;
 
 namespace UnityMover
@@ -22,6 +23,11 @@ namespace UnityMover
         public void MoveTo()
         {
             agent.SetDestination(myDestination);
+        }
+
+        private void OnDrawGizmosSelected()
+        {
+            Gizmos.DrawLine(transform.position, myDestination);
         }
     }
 }

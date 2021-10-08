@@ -109,4 +109,9 @@ internal class AListener
         connection = connecTask.Result;
         readStream = new StreamReader(connection.GetStream());
     }
+
+    public void Close()
+    {
+        connection.Close();
+    }
 }

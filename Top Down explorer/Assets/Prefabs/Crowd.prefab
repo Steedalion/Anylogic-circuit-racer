@@ -77,9 +77,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3861948222577548488}
   - component: {fileID: 3861948222577548490}
-  - component: {fileID: 3861948222577548491}
-  - component: {fileID: 3861948222577548489}
-  - component: {fileID: 3861948222577548493}
+  - component: {fileID: 471534487426345684}
+  - component: {fileID: 6170562511498433096}
   m_Layer: 0
   m_Name: Crowd
   m_TagString: Untagged
@@ -116,30 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   port: 9991
   period: 0.1
-  message: You need to add a move Object here.
---- !u!195 &3861948222577548491
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3861948222577548534}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &3861948222577548489
+--- !u!114 &471534487426345684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,15 +124,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3861948222577548534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adfe5516953248eda3fab4bebe7f12ca, type: 3}
+  m_Script: {fileID: 11500000, guid: f9aa10db48cc4d55931514308f60f516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onNextDestinationSet:
+  onSetDestination:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3861948221331587996}
-        m_TargetAssemblyTypeName: UnityEngine.AI.NavMeshAgent, UnityEngine
-        m_MethodName: set_destination
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CrowdController, Assembly-CSharp
+        m_MethodName: SetCrowdCenterPoint
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -166,7 +142,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3861948222577548493
+--- !u!114 &6170562511498433096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,11 +151,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3861948222577548534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06acfc2471349404eb584ca5c8eb0e9a, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e6b45e8d5f1a3b42b819178f5025026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gain: 1
-  smoothing: 0.1
+  radius: 5
 --- !u!1001 &3861948221732690632
 PrefabInstance:
   m_ObjectHideFlags: 0

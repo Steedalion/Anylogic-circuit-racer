@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Net;
+using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityMover;
@@ -10,22 +12,23 @@ public class PositionListenerAsync : MonoBehaviour
 {
     [SerializeField] private int port;
     [SerializeField] private float period = 0.1f;
+    
     private AListener listener;
     private Task StartListenning;
     private Task<string> cmd;
     private bool wasConnected;
     private MessageIntepretor interpretor;
-    [TextArea] public string message = "You need to add a move Object here.";
-
     private WaitForSeconds wait;
+
 
     private void Awake()
     {
-        interpretor = new MessageIntepretor(gameObject.GetComponent<Moveable>());
+        interpretor = new MessageIntepretor(GetComponent<Moveable>());
     }
 
     private void Start()
     {
+        
         wait = new WaitForSeconds(period);
         listener = new AListener(IPAddress.Loopback, port);
         StartListenning = listener.ConnectAsync();
@@ -39,12 +42,11 @@ public class PositionListenerAsync : MonoBehaviour
         if (StartListenning.IsCompleted)
         {
             Debug.Log("Connected ");
-             listener.SetStreamSync();
+            listener.SetStreamSync();
             cmd = listener.ReadLine();
             // StartListenning = listener.SetStream();
             // StartListenning.Start();
             yield return WaitForCommand();
-            
         }
 
         yield return WaitForConnection();
@@ -55,7 +57,7 @@ public class PositionListenerAsync : MonoBehaviour
         yield return wait;
         if (StartListenning.IsCompleted)
         {
-            Debug.Log("Stream set to +"+listener);
+            Debug.Log("Stream set to +" + listener);
             cmd = listener.ReadLine();
             yield return (WaitForCommand());
         }
@@ -74,5 +76,10 @@ public class PositionListenerAsync : MonoBehaviour
         }
 
         yield return WaitForCommand();
+    }
+
+    private void OnDestroy()
+    {
+        listener.Close();
     }
 }
